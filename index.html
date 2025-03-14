@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>teste java js</title>
 </head>
 <body>
-    
+ 
+    <div class = "conainer">
+       <div class="ola" id="ola">olá visitante</div>
+        <h2>bom dia</h2>
+        <h3>bão?  
+        </h3>
+        </h3>
+        <!--onclick é para executar o javajs-->
+        <button onClick ="mudarNome">mudar nome</button>
+    </div>
+    <!--function é para fazer uma função e tudo q for executado tem q estar entrodela-->
+<script>
+    function mudarNome (){
+        let nome ="miguel"
+ document.getElementById ("ola").textContent ="olá miguel" + nome
+    }
+   
+</script>
+
 </body>
 </html>

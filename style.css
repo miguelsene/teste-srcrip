@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(202, 182, 139);
+}
+.conainer{
+    background-color: rgb(94, 90, 72);
+    width: 900px;
+    border-radius: 7%;
+    margin-left: 500px;
+    margin-top: 200px;
+    text-align: center;
+}
